@@ -1,0 +1,10 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4\Development\VictoryBPLibrary\PCH.VictoryBPLibrary.h.obj"
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4\Development\VictoryBPLibrary\Module.VictoryBPLibrary.cpp.obj"
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4\Development\VictoryBPLibrary\Module.VictoryBPLibrary.gen.1_of_2.cpp.obj"
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4\Development\VictoryBPLibrary\Module.VictoryBPLibrary.gen.2_of_2.cpp.obj"
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Intermediate\Build\Win64\UE4\Development\VictoryBPLibrary\PCLaunch.rc.res"
+/OUT:"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\VictoryPlugin\Binaries\Win64\UE4-VictoryBPLibrary.lib"
