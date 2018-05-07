@@ -25,6 +25,9 @@ class BEATSABEREDITOR_API UBPFileIO : public UBlueprintFunctionLibrary
 
 	UFUNCTION(BlueprintCallable, Category = "File IO")
 		static TArray<FString> FindAllDirectories(const FString& TestDir);
+
+	UFUNCTION(BlueprintCallable, Category = "File IO")
+		static TArray<FString> FindAllFiles(const FString& TestDir);
 	
 	UFUNCTION(BlueprintCallable, Category = "File IO")
 		static bool VerifyFile(const FString& TestFile);
