@@ -37,17 +37,7 @@ TArray<FString> UBPFileIO::FindAllDirectories(const FString & TestDir)
 	IFileManager& FileManager = IFileManager::Get();
 	FString FinalPath = TestDir + "/*";
 
-	FileManager.FindFiles(result, *FinalPath, false, true);
-	return result;
-}
-
-TArray<FString> UBPFileIO::FindAllFiles(const FString & TestDir)
-{
-	TArray<FString> result;
-	IFileManager& FileManager = IFileManager::Get();
-	FString FinalPath = TestDir + "/*";
-
-	FileManager.FindFiles(result, *FinalPath, true, false);
+	FileManager.FindFiles(result, *FinalPath, true, true);
 	return result;
 }
 
