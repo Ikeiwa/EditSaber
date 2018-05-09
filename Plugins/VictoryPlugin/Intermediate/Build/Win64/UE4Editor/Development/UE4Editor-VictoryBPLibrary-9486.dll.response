@@ -1,0 +1,94 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/DELAYLOAD:"PxFoundationPROFILE_x64.dll"
+/DELAYLOAD:"PxPvdSDKPROFILE_x64.dll"
+/DELAYLOAD:"PhysX3PROFILE_x64.dll"
+/DELAYLOAD:"PhysX3CookingPROFILE_x64.dll"
+/DELAYLOAD:"PhysX3CommonPROFILE_x64.dll"
+/DELAYLOAD:"APEXFrameworkPROFILE_x64.dll"
+/LIBPATH:"ThirdParty/PhysX3/Lib/Win64/VS2015"
+/LIBPATH:"ThirdParty/PhysX3/Lib/Win64/VS2015"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\Module.VictoryBPLibrary.cpp.obj"
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\Module.VictoryBPLibrary.gen.1_of_2.cpp.obj"
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\Module.VictoryBPLibrary.gen.2_of_2.cpp.obj"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\PCLaunch.rc.res"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+"PhysX3PROFILE_x64.lib"
+"PhysX3ExtensionsPROFILE_x64.lib"
+"PhysX3CookingPROFILE_x64.lib"
+"PhysX3CommonPROFILE_x64.lib"
+"PsFastXmlPROFILE_x64.lib"
+"PxFoundationPROFILE_x64.lib"
+"PxPvdSDKPROFILE_x64.lib"
+"PxTaskPROFILE_x64.lib"
+"APEXFrameworkPROFILE_x64.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RHI.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RenderCore.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HTTP.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UMG.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Slate.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlateCore.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ImageWrapper.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HeadMountedDisplay.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AIModule.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ApplicationCore.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"D:\programmes\unreal engine\UE_4.19\Engine\Plugins\Runtime\ApexDestruction\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ApexDestruction.lib"
+/OUT:"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\VictoryPlugin\Binaries\Win64\UE4Editor-VictoryBPLibrary-9486.dll"
+/IMPLIB:"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VictoryBPLibrary-9486.suppressed.lib"
+/PDB:"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\VictoryPlugin\Binaries\Win64\UE4Editor-VictoryBPLibrary-9486.pdb"
+/ignore:4078
