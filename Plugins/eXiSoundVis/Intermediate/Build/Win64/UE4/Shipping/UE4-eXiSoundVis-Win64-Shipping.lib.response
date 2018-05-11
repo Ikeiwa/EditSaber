@@ -1,0 +1,9 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/LTCG
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Intermediate\Build\Win64\UE4\Shipping\eXiSoundVis\Module.eXiSoundVis.cpp.obj"
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Intermediate\Build\Win64\UE4\Shipping\eXiSoundVis\Module.eXiSoundVis.gen.cpp.obj"
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Intermediate\Build\Win64\UE4\Shipping\eXiSoundVis\PCLaunch.rc.res"
+/OUT:"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Binaries\Win64\UE4-eXiSoundVis-Win64-Shipping.lib"

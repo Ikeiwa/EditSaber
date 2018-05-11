@@ -32,7 +32,7 @@
 #define PLATFORM_WINDOWS 1
 #define DEPTH_32_BIT_CONVERSION 0
 #define PROJECT_COPYRIGHT_STRING Fill out your copyright notice in the Description page of Project Settings.
-#define PROJECT_PRODUCT_NAME UE4Game
+#define PROJECT_PRODUCT_NAME EditSaber
 #define PROJECT_PRODUCT_IDENTIFIER BeatSaberEditor
 #define NDEBUG 1
 #define UE_BUILD_SHIPPING 1

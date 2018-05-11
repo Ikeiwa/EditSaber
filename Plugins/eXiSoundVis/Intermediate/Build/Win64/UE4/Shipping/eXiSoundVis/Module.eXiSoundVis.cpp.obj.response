@@ -1,0 +1,300 @@
+/Zc:inline
+/nologo
+/Oi
+/c
+/Gy
+/Zm850
+/wd4819
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/source-charset:utf-8 /execution-charset:utf-8
+/Ox
+/Ot
+/Ob2
+/errorReport:prompt
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/wd4463
+/wd4838
+/w44668
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source"
+/I "D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Source\eXiSoundVis\Private"
+/I "D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Source"
+/I "D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Source\eXiSoundVis\Public"
+/I "D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Intermediate\Build\Win64\UE4\Inc\eXiSoundVis"
+/I "D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Source\eXiSoundVis"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Classes"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\AI"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\AI\Navigation"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\Animation"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\Curves"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\EdGraph"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\Internationalization"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\Net"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\PacketHandlers"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\Performance"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\Physics"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\ProfilingDebugging"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\Rendering"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\Slate"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\Tests"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine\Public\VisualLogger"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\Engine"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Engine"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Async"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Containers"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Delegates"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\GenericPlatform"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\HAL"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Logging"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Math"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Misc"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Modules"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Modules\Boilerplate"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\ProfilingDebugging"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Serialization"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Serialization\Csv"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Stats"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Templates"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\UObject"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core\Public\Windows"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Core"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\CoreUObject\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Blueprint"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Internationalization"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Misc"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Serialization"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Serialization\Formatters"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Templates"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\UObject"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\CoreUObject"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\CoreUObject"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\ApplicationCore\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\ApplicationCore\Public\HAL"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\ApplicationCore\Public\Windows"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\ApplicationCore"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\RHI\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\RHI"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Json\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Json\Public\Dom"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Json\Public\Policies"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Json\Public\Serialization"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Json"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Animation"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Application"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Brushes"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Fonts"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Input"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Layout"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Logging"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Rendering"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Sound"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Stats"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Styling"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Textures"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Types"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Widgets"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\SlateCore"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SlateCore"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\InputCore\Classes"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\InputCore\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\InputCore\Public\GenericPlatform"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\InputCore\Public\HAL"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\InputCore\Public\Windows"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\InputCore"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\InputCore"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Application"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Commands"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Docking"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Layout"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\MetaData"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\MultiBox"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Notifications"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Styling"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Text"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Views"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Colors"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Docking"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Images"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Input"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Layout"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Navigation"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Notifications"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Text"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Views"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\Slate"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Slate"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\ImageWrapper\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\ImageWrapper"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Messaging\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Messaging"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\MessagingCommon\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\MessagingCommon"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\RenderCore\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\RenderCore"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\ShaderCore\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\ShaderCore"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\UtilityShaders\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\UtilityShaders"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\AssetRegistry\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\AssetRegistry"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\AssetRegistry"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\EngineMessages\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\EngineMessages"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\EngineMessages"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\EngineSettings\Classes"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\EngineSettings\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\EngineSettings"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\EngineSettings"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SynthBenchmark\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\SynthBenchmark"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Renderer\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\Renderer"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\Renderer"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\GameplayTags\Classes"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\GameplayTags\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\GameplayTags"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\GameplayTags"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\AIModule\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\AIModule\Classes"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\AIModule"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\AIModule"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\GameplayTasks\Classes"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\GameplayTasks\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\GameplayTasks"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\GameplayTasks"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\DatabaseSupport\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\DatabaseSupport"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\PacketHandler"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\PacketHandlers\PacketHandler"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\HardwareSurvey\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\HardwareSurvey"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\ClothingSystemRuntimeInterface"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\ClothingSystemRuntimeInterface"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\AudioMixer\Classes"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\AudioMixer\Public"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\AudioMixer\Public\Components"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\AudioMixer\Public\DSP"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\AudioMixer"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\Runtime\AudioMixer"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\ThirdParty\Kiss_FFT\kiss_fft129"
+/I "D:\programmes\unreal engine\UE_4.19\Engine\Source\ThirdParty\Kiss_FFT"
+/DIS_PROGRAM=0
+/DUE_GAME=1
+/DENABLE_PGO_PROFILE=0
+/DWITH_DEV_AUTOMATION_TESTS=0
+/DWITH_PERF_AUTOMATION_TESTS=0
+/DUNICODE
+/D_UNICODE
+/D__UNREAL__
+/DIS_MONOLITHIC=1
+/DWITH_ENGINE=1
+/DWITH_UNREAL_DEVELOPER_TOOLS=0
+/DWITH_COREUOBJECT=1
+/DUSE_STATS_WITHOUT_ENGINE=0
+/DWITH_PLUGIN_SUPPORT=0
+/DWITH_PERFCOUNTERS=0
+/DUSE_LOGGING_IN_SHIPPING=0
+/DWITH_LOGGING_TO_MEMORY=0
+/DUSE_CACHE_FREED_OS_ALLOCS=1
+/DUSE_CHECKS_IN_SHIPPING=0
+/DUE_BUILD_MINIMAL=1
+/DWITH_EDITOR=0
+/DWITH_EDITORONLY_DATA=0
+/DWITH_SERVER_CODE=1
+/DWITH_CEF3=1
+/DWITH_XGE_CONTROLLER=0
+/DUBT_COMPILED_PLATFORM=Win64
+/DUBT_COMPILED_TARGET=Game
+/DWIN32=1
+/D_WIN32_WINNT=0x0601
+/DWINVER=0x0601
+/DPLATFORM_WINDOWS=1
+/DDEPTH_32_BIT_CONVERSION=0
+/DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
+/DPROJECT_PRODUCT_NAME=EditSaber
+/DPROJECT_PRODUCT_IDENTIFIER=BeatSaberEditor
+/DNDEBUG=1
+/DUE_BUILD_SHIPPING=1
+/DUE_ENGINE_DIRECTORY="../../../../../../programmes/unreal engine/UE_4.19/Engine/"
+/DORIGINAL_FILE_NAME=\"UE4-eXiSoundVis-Win64-Shipping.lib\"
+/DUE_IS_ENGINE_MODULE=0
+/DUE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0
+/DUE_PROJECT_NAME=BeatSaberEditor
+/DDEPRECATED_FORGAME=DEPRECATED
+/DEXISOUNDVIS_API=
+/DWITH_PHYSX=1
+/DWITH_APEX=1
+/DWITH_APEX_CLOTHING=1
+/DWITH_CLOTH_COLLISION_DETECTION=1
+/DWITH_PHYSX_COOKING=1
+/DWITH_NVCLOTH=1
+/DWITH_RECAST=1
+/DGPUPARTICLE_LOCAL_VF_ONLY=0
+/DENGINE_API=
+/DUE_ENABLE_ICU=1
+/DWITH_VS_PERF_PROFILER=0
+/DWITH_DIRECTXMATH=0
+/DCORE_API=
+/DCOREUOBJECT_API=
+/DAPPLICATIONCORE_API=
+/DRHI_API=
+/DJSON_API=
+/DSLATE_DEFERRED_DESIRED_SIZE=0
+/DWITH_FREETYPE=1
+/DSLATECORE_API=
+/DINPUTCORE_API=
+/DSLATE_API=
+/DWITH_UNREALPNG=1
+/DWITH_UNREALJPEG=1
+/DWITH_UNREALEXR=1
+/DIMAGEWRAPPER_API=
+/DMESSAGING_API=
+/DMESSAGINGCOMMON_API=
+/DRENDERCORE_API=
+/DSHADERCORE_API=
+/DUTILITYSHADERS_API=
+/DASSETREGISTRY_API=
+/DENGINEMESSAGES_API=
+/DENGINESETTINGS_API=
+/DSYNTHBENCHMARK_API=
+/DRENDERER_API=
+/DGAMEPLAYTAGS_API=
+/DWITH_RECAST=1
+/DWITH_GAMEPLAY_DEBUGGER=0
+/DAIMODULE_API=
+/DGAMEPLAYTASKS_API=
+/DDATABASESUPPORT_API=
+/DPACKETHANDLER_API=
+/DRELIABILITYHANDLERCOMPONENT_API=
+/DHARDWARESURVEY_API=
+/DCLOTHINGSYSTEMRUNTIMEINTERFACE_API=
+/DNETWORKREPLAYSTREAMING_API=
+/DAUDIOMIXER_API=
+/DWITH_KISSFFT=1
+/D_HAS_EXCEPTIONS=0
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Intermediate\Build\Win64\UE4\Shipping\eXiSoundVis\Module.eXiSoundVis.cpp"
+/Fo"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Intermediate\Build\Win64\UE4\Shipping\eXiSoundVis\Module.eXiSoundVis.cpp.obj"
+/TP
+/GR-
+/W4

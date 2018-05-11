@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-eXiSoundVis.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Intermediate\Build\Win64\UE4Editor\Development\eXiSoundVis\Module.eXiSoundVis.cpp.obj"
+"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Intermediate\Build\Win64\UE4Editor\Development\eXiSoundVis\Module.eXiSoundVis.gen.cpp.obj"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\eXiSoundVis\PCLaunch.rc.res"
+"D:\programmes\unreal engine\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Evann\Documents\Unreal Projects\BeatSaberEditor\Plugins\eXiSoundVis\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-eXiSoundVis.lib"
