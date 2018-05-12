@@ -89,7 +89,8 @@ void CalculateFrequencySpectrum(USoundWave* InSoundWaveRef, const float InStartT
 			// Create 1-dim Array with one slot for SamplesToRead
 			int32 Dims[1] = {SamplesToRead};
 
-			kiss_fftnd_cfg STF = kiss_fftnd_alloc(Dims, 1, 0, nullptr, nullptr);
+			// alloc once and forget, should probably move to a init/deinit func
+			static kiss_fftnd_cfg STF = kiss_fftnd_alloc(Dims, 1, 0, nullptr, nullptr);
 
 			int16* SamplePtr = reinterpret_cast<int16*>(InSoundWaveRef->CachedRealtimeFirstBuffer);
 
@@ -103,22 +104,28 @@ void CalculateFrequencySpectrum(USoundWave* InSoundWaveRef, const float InStartT
 			// Shift our SamplePointer to the Current "FirstSample"
 			SamplePtr += FirstSample * NumChannels;
 
+			float precomputeMultiplier = 2.f * PI / (SamplesToRead - 1);
+
 			for (int32 SampleIndex = 0; SampleIndex < SamplesToRead; SampleIndex++)
 			{
+				float rMult = 0.f;
+				if (SamplePtr != NULL && (SampleIndex + FirstSample < SampleCount))
+				{
+					rMult = 0.5f * (1.f - FMath::Cos(precomputeMultiplier * SampleIndex));
+				}
 				for (int32 ChannelIndex = 0; ChannelIndex < NumChannels; ChannelIndex++)
 				{
 					// Make sure the Point is Valid and we don't go out of bounds
 					if (SamplePtr != NULL && (SampleIndex + FirstSample < SampleCount))
 					{
 						// Use Window function to get a better result for the Data (Hann Window)
-						Buffer[ChannelIndex][SampleIndex].r = GetFFTInValue(*SamplePtr, SampleIndex, SamplesToRead);
-						Buffer[ChannelIndex][SampleIndex].i = 0.f;
-					} else
-					{
-						// Use Window function to get a better result for the Data (Hann Window)
-						Buffer[ChannelIndex][SampleIndex].r = 0.f;
-						Buffer[ChannelIndex][SampleIndex].i = 0.f;
+						Buffer[ChannelIndex][SampleIndex].r = rMult * (*SamplePtr);
 					}
+					else
+					{
+						Buffer[ChannelIndex][SampleIndex].r = 0.f;
+					}
+					Buffer[ChannelIndex][SampleIndex].i = 0.f;
 
 					// Take the next Sample
 					SamplePtr++;
@@ -159,7 +166,7 @@ void CalculateFrequencySpectrum(USoundWave* InSoundWaveRef, const float InStartT
 			}
 
 			// Make sure to free up the FFT stuff
-			KISS_FFT_FREE(STF);
+			// KISS_FFT_FREE(STF);
 
 			for (int32 ChannelIndex = 0; ChannelIndex < NumChannels; ++ChannelIndex)
 			{
